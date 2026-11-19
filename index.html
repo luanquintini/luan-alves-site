@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Luan Alves — Criação de sites</title>
+<meta name="description" content="Luan Alves, criação de sites modernos e responsivos para empresas e empreendedores. Blumenau, SC.">
+<meta name="theme-color" content="#05070C">
+<meta property="og:title" content="Luan Alves — Criação de sites">
+<meta property="og:description" content="Sites modernos, rápidos e bem pensados para valorizar o seu negócio na internet.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%231D66FF'/%3E%3Ctext x='16' y='21' font-family='Arial' font-weight='700' font-size='13' fill='white' text-anchor='middle'%3ELA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#05070C}
+html{scroll-behavior:smooth}
+a{color:#7DB2FF;text-decoration:none}a:hover{color:#B9D5FF}
+a:focus-visible{outline:2px solid #7DB2FF;outline-offset:3px;border-radius:12px}
+.btn-primary{transition:transform .25s ease, box-shadow .25s ease, background .25s ease}
+.btn-primary:hover{color:#FFFFFF;background:#2B73FF;box-shadow:0 0 0 1px rgba(125,178,255,.5),0 10px 40px -8px rgba(47,123,255,.7);transform:translateY(-1px)}
+.btn-ghost{transition:border-color .25s ease, background .25s ease}
+.btn-ghost:hover{color:#FFFFFF;border-color:rgba(125,178,255,.55);background:rgba(47,123,255,.08)}
+.navlink{transition:color .2s ease}
+.navlink:hover{color:#FFFFFF}
+.card{transition:border-color .35s ease, transform .35s ease}
+.card:hover{border-color:rgba(125,178,255,.4);transform:translateY(-3px)}
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@keyframes horizon{from{opacity:0;transform:translateX(-50%) scale(.92)}to{opacity:1;transform:translateX(-50%) scale(1)}}
+@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(30px,-20px)}}
+.r1{animation:rise .9s cubic-bezier(.2,.7,.2,1) .1s both}
+.r2{animation:rise .9s cubic-bezier(.2,.7,.2,1) .25s both}
+.r3{animation:rise .9s cubic-bezier(.2,.7,.2,1) .4s both}
+.r4{animation:rise .9s cubic-bezier(.2,.7,.2,1) .55s both}
+.horizon{animation:horizon 1.6s cubic-bezier(.2,.7,.2,1) .2s both}
+.glow{animation:drift 14s ease-in-out infinite}
+@media (max-width:760px){.navlinks{display:none !important}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.r1,.r2,.r3,.r4,.horizon,.glow{animation:none !important}.card:hover,.btn-primary:hover{transform:none}}
+</style>
+<style>:root{color-scheme:dark}</style>
+</head>
+<body>
+<div style="font-family: 'Geist', 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif; color: #EEF2F8; background: #05070C; min-height: 100vh; overflow-x: hidden; -webkit-font-smoothing: antialiased">
+
+  <!-- Navegação -->
+  <header style="position: sticky; top: 0; z-index: 20; background: rgba(5,7,12,.72); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-bottom: 1px solid rgba(148,170,210,.10)">
+    <nav style="max-width: 1200px; margin: 0 auto; padding: 0 24px; height: 68px; display: flex; align-items: center; justify-content: space-between; gap: 16px" aria-label="Principal">
+      <a href="#inicio" style="display: flex; align-items: center; gap: 10px; color: #FFFFFF; font-weight: 600; font-size: 17px; letter-spacing: -0.01em">
+        <span style="width: 30px; height: 30px; border-radius: 9px; background: linear-gradient(140deg, #2F7BFF, #0B1F4D); box-shadow: inset 0 0 0 1px rgba(255,255,255,.18), 0 0 24px -4px rgba(47,123,255,.8); display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 700">LA</span>
+        Luan Alves
+      </a>
+      <div class="navlinks" style="display: flex; align-items: center; gap: 32px; font-size: 15px">
+        <a class="navlink" href="#sobre" style="color: #A7B3C6">Sobre</a>
+        <a class="navlink" href="#projetos" style="color: #A7B3C6">Projetos</a>
+        <a class="navlink" href="#trabalho" style="color: #A7B3C6">Meu trabalho</a>
+      </div>
+      <a class="btn-primary" href="https://wa.me/554792193142?text=Ol%C3%A1%2C%20Luan%21%20Gostaria%20de%20conversar%20sobre%20a%20cria%C3%A7%C3%A3o%20de%20um%20site." target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 18px; border-radius: 999px; background: #1D66FF; color: #FFFFFF; font-size: 15px; font-weight: 500">Vamos conversar</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="inicio" style="position: relative; overflow: hidden; padding: clamp(80px, 12vw, 150px) 24px clamp(150px, 18vw, 230px)">
+    <div class="glow" aria-hidden="true" style="position: absolute; top: -220px; right: -160px; width: 620px; height: 620px; border-radius: 50%; background: radial-gradient(closest-side, rgba(47,123,255,.22), rgba(47,123,255,0)); pointer-events: none"></div>
+    <div aria-hidden="true" style="position: absolute; inset: 0; background-image: linear-gradient(rgba(148,170,210,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(148,170,210,.05) 1px, transparent 1px); background-size: 64px 64px; -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, #000 30%, transparent 75%); mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, #000 30%, transparent 75%); pointer-events: none"></div>
+    <div class="horizon" aria-hidden="true" style="position: absolute; left: 50%; bottom: -1180px; width: 2200px; height: 1300px; border-radius: 50%; background: radial-gradient(ellipse at 50% 0%, #0A1430 0%, #05070C 55%); border-top: 1px solid rgba(125,178,255,.75); box-shadow: 0 -2px 30px rgba(47,123,255,.55), 0 -40px 140px -20px rgba(47,123,255,.45), inset 0 30px 80px -30px rgba(47,123,255,.35); transform: translateX(-50%); pointer-events: none"></div>
+
+    <div style="position: relative; max-width: 1200px; margin: 0 auto">
+      <p class="r1" style="margin: 0 0 28px; display: inline-flex; align-items: center; gap: 10px; padding: 7px 14px 7px 10px; border-radius: 999px; border: 1px solid rgba(148,170,210,.18); background: rgba(18,22,31,.6); color: #C9D3E3; font-size: 14px">
+        <span aria-hidden="true" style="width: 8px; height: 8px; border-radius: 50%; background: #3B86FF; box-shadow: 0 0 12px #3B86FF"></span>
+        Luan Alves, criação de sites em Blumenau (SC)
+      </p>
+      <h1 class="r2" style="margin: 0; max-width: 15ch; font-size: clamp(42px, 7.4vw, 96px); line-height: 0.98; letter-spacing: -0.045em; font-weight: 600; background: linear-gradient(180deg, #FFFFFF 30%, #9DB6DA 100%); -webkit-background-clip: text; background-clip: text; color: transparent">Sites à altura do negócio que você construiu.</h1>
+      <p class="r3" style="margin: 30px 0 0; max-width: 54ch; font-size: clamp(17px, 1.6vw, 20px); line-height: 1.6; color: #A7B3C6">Desenvolvo sites modernos, rápidos e cuidadosamente desenhados para empresas e empreendedores que querem ser bem apresentados na internet, do primeiro clique ao primeiro contato.</p>
+      <div class="r4" style="margin-top: 40px; display: flex; flex-wrap: wrap; gap: 14px">
+        <a class="btn-primary" href="https://wa.me/554792193142?text=Ol%C3%A1%2C%20Luan%21%20Gostaria%20de%20conversar%20sobre%20a%20cria%C3%A7%C3%A3o%20de%20um%20site." target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 10px; min-height: 54px; padding: 0 28px; border-radius: 999px; background: #1D66FF; color: #FFFFFF; font-size: 16px; font-weight: 500; box-shadow: 0 0 0 1px rgba(125,178,255,.35), 0 8px 30px -10px rgba(47,123,255,.8)">
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"></path></svg>
+          Vamos conversar
+        </a>
+        <a class="btn-ghost" href="#projetos" style="display: inline-flex; align-items: center; min-height: 54px; padding: 0 28px; border-radius: 999px; border: 1px solid rgba(148,170,210,.25); color: #E3EAF5; font-size: 16px; font-weight: 500">Ver projetos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" style="padding: clamp(72px, 9vw, 120px) 24px; scroll-margin-top: 68px">
+    <div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: clamp(40px, 6vw, 96px); align-items: start">
+      <div>
+        <h2 style="margin: 0; font-size: clamp(32px, 4.2vw, 52px); line-height: 1.05; letter-spacing: -0.035em; font-weight: 600; color: #FFFFFF">Prazer, eu sou o Luan.</h2>
+        <p style="margin: 24px 0 0; font-size: 18px; line-height: 1.7; color: #A7B3C6; max-width: 52ch">Sou desenvolvedor web e trabalho na interseção entre design e tecnologia. Cuido de cada projeto de ponta a ponta: da organização das ideias e do visual até o código e a publicação do site no ar.</p>
+        <p style="margin: 18px 0 0; font-size: 18px; line-height: 1.7; color: #A7B3C6; max-width: 52ch">Gosto de criar experiências digitais que parecem feitas sob medida, porque são. Cada negócio tem uma identidade, um público e um jeito de falar, e o site precisa refletir isso com clareza, bom gosto e atenção aos detalhes.</p>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px">
+        <div style="padding: 24px; border-radius: 20px; background: #0D1119; border: 1px solid rgba(148,170,210,.12)">
+          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7DB2FF" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"></path><circle cx="12" cy="9.5" r="2.5"></circle></svg>
+          <p style="margin: 16px 0 4px; font-size: 16px; font-weight: 600; color: #FFFFFF">Blumenau, SC</p>
+          <p style="margin: 0; font-size: 14.5px; line-height: 1.55; color: #97A4B8">Atendimento próximo e também à distância.</p>
+        </div>
+        <div style="padding: 24px; border-radius: 20px; background: #0D1119; border: 1px solid rgba(148,170,210,.12)">
+          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7DB2FF" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"></path></svg>
+          <p style="margin: 16px 0 4px; font-size: 16px; font-weight: 600; color: #FFFFFF">Português e inglês</p>
+          <p style="margin: 0; font-size: 14.5px; line-height: 1.55; color: #97A4B8">Projetos para negócios do Brasil e dos EUA.</p>
+        </div>
+        <div style="padding: 24px; border-radius: 20px; background: #0D1119; border: 1px solid rgba(148,170,210,.12)">
+          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7DB2FF" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="3"></rect><path d="M3 9h18M8 14l2 2-2 2M13 18h3"></path></svg>
+          <p style="margin: 16px 0 4px; font-size: 16px; font-weight: 600; color: #FFFFFF">Do layout ao código</p>
+          <p style="margin: 0; font-size: 14.5px; line-height: 1.55; color: #97A4B8">Design e desenvolvimento pela mesma pessoa.</p>
+        </div>
+        <div style="padding: 24px; border-radius: 20px; background: #0D1119; border: 1px solid rgba(148,170,210,.12)">
+          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7DB2FF" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="2.5" width="10" height="19" rx="2.5"></rect><path d="M11 18h2"></path></svg>
+          <p style="margin: 16px 0 4px; font-size: 16px; font-weight: 600; color: #FFFFFF">Pensado para o celular</p>
+          <p style="margin: 0; font-size: 14.5px; line-height: 1.55; color: #97A4B8">Onde a maioria dos seus clientes vai abrir o site.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projetos -->
+  <section id="projetos" style="position: relative; padding: clamp(72px, 9vw, 120px) 24px; scroll-margin-top: 68px; border-top: 1px solid rgba(148,170,210,.08)">
+    <div aria-hidden="true" style="position: absolute; top: 0; left: 50%; width: 900px; height: 500px; transform: translateX(-50%); background: radial-gradient(closest-side, rgba(47,123,255,.10), rgba(47,123,255,0)); pointer-events: none"></div>
+    <div style="position: relative; max-width: 1200px; margin: 0 auto">
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 20px 40px">
+        <h2 style="margin: 0; font-size: clamp(32px, 4.2vw, 52px); line-height: 1.05; letter-spacing: -0.035em; font-weight: 600; color: #FFFFFF; max-width: 16ch">Projetos desenvolvidos</h2>
+        <p style="margin: 0; max-width: 46ch; font-size: 17px; line-height: 1.65; color: #A7B3C6">Loja virtual, site institucional e site sob medida, cada um com a identidade visual do próprio negócio.</p>
+      </div>
+
+      <div style="margin-top: 56px; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 22px">
+
+        <!-- D'March -->
+        <article class="card" style="border-radius: 24px; overflow: hidden; background: #0B0F17; border: 1px solid rgba(148,170,210,.13)">
+          <div aria-hidden="true" style="height: 230px; padding: 22px 22px 0; background: radial-gradient(120% 90% at 20% 0%, #3A1D2B 0%, #1A0F16 60%, #120A10 100%); display: flex; align-items: flex-end">
+            <div style="width: 100%; height: 100%; border-radius: 12px 12px 0 0; background: #FBF4F3; overflow: hidden; box-shadow: 0 -10px 40px -10px rgba(0,0,0,.6)">
+              <div style="height: 22px; display: flex; align-items: center; gap: 5px; padding: 0 10px; background: #EFE3E1"><span style="width: 6px; height: 6px; border-radius: 50%; background: #CDB4B0"></span><span style="width: 6px; height: 6px; border-radius: 50%; background: #CDB4B0"></span><span style="width: 6px; height: 6px; border-radius: 50%; background: #CDB4B0"></span></div>
+              <div style="padding: 12px 14px; display: flex; justify-content: space-between; align-items: center"><span style="font-family: Georgia, serif; font-size: 13px; color: #5B2A3A; letter-spacing: .04em">D'March</span><span style="width: 50px; height: 5px; border-radius: 3px; background: #E3CCC8"></span></div>
+              <div style="padding: 0 14px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px">
+                <div><div style="height: 74px; border-radius: 6px; background: linear-gradient(160deg, #E9C9C5, #C98E93)"></div><div style="margin-top: 6px; height: 4px; width: 80%; border-radius: 2px; background: #E3CCC8"></div><div style="margin-top: 4px; height: 4px; width: 45%; border-radius: 2px; background: #B4566A"></div></div>
+                <div><div style="height: 74px; border-radius: 6px; background: linear-gradient(160deg, #2E1B24, #5B2A3A)"></div><div style="margin-top: 6px; height: 4px; width: 70%; border-radius: 2px; background: #E3CCC8"></div><div style="margin-top: 4px; height: 4px; width: 45%; border-radius: 2px; background: #B4566A"></div></div>
+                <div><div style="height: 74px; border-radius: 6px; background: linear-gradient(160deg, #F1DCD5, #D9A9A1)"></div><div style="margin-top: 6px; height: 4px; width: 85%; border-radius: 2px; background: #E3CCC8"></div><div style="margin-top: 4px; height: 4px; width: 45%; border-radius: 2px; background: #B4566A"></div></div>
+                <div><div style="height: 74px; border-radius: 6px; background: linear-gradient(160deg, #C98E93, #7A3A4C)"></div><div style="margin-top: 6px; height: 4px; width: 65%; border-radius: 2px; background: #E3CCC8"></div><div style="margin-top: 4px; height: 4px; width: 45%; border-radius: 2px; background: #B4566A"></div></div>
+              </div>
+            </div>
+          </div>
+          <div style="padding: 24px 26px 28px">
+            <p style="margin: 0; font-size: 13.5px; color: #7DB2FF">Loja virtual</p>
+            <h3 style="margin: 6px 0 0; font-size: 22px; letter-spacing: -0.02em; font-weight: 600; color: #FFFFFF">D'March Moda Íntima</h3>
+            <p style="margin: 12px 0 0; font-size: 15.5px; line-height: 1.6; color: #A1AEC1">E-commerce completo para uma loja de moda íntima de Blumenau, com vitrine de produtos, pagamento online e painel próprio para gerenciar estoque, pedidos, cupons e promoções.</p>
+          </div>
+        </article>
+
+        <!-- BR Alumínios -->
+        <article class="card" style="border-radius: 24px; overflow: hidden; background: #0B0F17; border: 1px solid rgba(148,170,210,.13)">
+          <div aria-hidden="true" style="height: 230px; padding: 22px 22px 0; background: radial-gradient(120% 90% at 80% 0%, #0F3A23 0%, #0A1A12 60%, #070F0B 100%); display: flex; align-items: flex-end">
+            <div style="width: 100%; height: 100%; border-radius: 12px 12px 0 0; background: #0E1310; overflow: hidden; box-shadow: 0 -10px 40px -10px rgba(0,0,0,.6)">
+              <div style="height: 22px; display: flex; align-items: center; gap: 5px; padding: 0 10px; background: #19201B"><span style="width: 6px; height: 6px; border-radius: 50%; background: #34433A"></span><span style="width: 6px; height: 6px; border-radius: 50%; background: #34433A"></span><span style="width: 6px; height: 6px; border-radius: 50%; background: #34433A"></span></div>
+              <div style="height: 186px; position: relative; padding: 16px; background: linear-gradient(90deg, rgba(14,19,16,.95) 40%, rgba(14,19,16,.5)), repeating-linear-gradient(115deg, #222A25 0 10px, #1A201C 10px 20px)">
+                <div style="display: flex; align-items: center; gap: 6px"><span style="width: 14px; height: 14px; border-radius: 50%; border: 2px solid #22C55E"></span><span style="font-size: 12px; font-weight: 700; color: #FFFFFF; letter-spacing: .02em">B<span style="color: #22C55E">R</span> Alumínios</span></div>
+                <div style="margin-top: 22px; height: 10px; width: 62%; border-radius: 3px; background: #F2F5F3"></div>
+                <div style="margin-top: 7px; height: 10px; width: 48%; border-radius: 3px; background: #F2F5F3"></div>
+                <div style="margin-top: 12px; height: 5px; width: 55%; border-radius: 3px; background: #4B5A50"></div>
+                <div style="margin-top: 5px; height: 5px; width: 40%; border-radius: 3px; background: #4B5A50"></div>
+                <div style="margin-top: 16px; width: 82px; height: 20px; border-radius: 6px; background: #22C55E"></div>
+              </div>
+            </div>
+          </div>
+          <div style="padding: 24px 26px 28px">
+            <p style="margin: 0; font-size: 13.5px; color: #7DB2FF">Site institucional</p>
+            <h3 style="margin: 6px 0 0; font-size: 22px; letter-spacing: -0.02em; font-weight: 600; color: #FFFFFF">BR Alumínios</h3>
+            <p style="margin: 12px 0 0; font-size: 15.5px; line-height: 1.6; color: #A1AEC1">Site para uma empresa de compra e venda de metais de Gaspar (SC), com a identidade verde da marca e a área de atendimento em Santa Catarina, Paraná e Rio Grande do Sul.</p>
+          </div>
+        </article>
+
+        <!-- Rescue Automotive -->
+        <article class="card" style="border-radius: 24px; overflow: hidden; background: #0B0F17; border: 1px solid rgba(148,170,210,.13)">
+          <div aria-hidden="true" style="height: 230px; padding: 22px 22px 0; background: radial-gradient(120% 90% at 20% 0%, #3A1212 0%, #1A0A0A 60%, #100606 100%); display: flex; align-items: flex-end">
+            <div style="width: 100%; height: 100%; border-radius: 12px 12px 0 0; background: #F4F5F7; overflow: hidden; box-shadow: 0 -10px 40px -10px rgba(0,0,0,.6)">
+              <div style="height: 22px; display: flex; align-items: center; gap: 5px; padding: 0 10px; background: #E2E4E8"><span style="width: 6px; height: 6px; border-radius: 50%; background: #B9BDC5"></span><span style="width: 6px; height: 6px; border-radius: 50%; background: #B9BDC5"></span><span style="width: 6px; height: 6px; border-radius: 50%; background: #B9BDC5"></span></div>
+              <div style="padding: 10px 14px; display: flex; justify-content: space-between; align-items: center; background: #14161A"><span style="font-size: 11px; font-weight: 800; color: #FFFFFF; letter-spacing: .03em">RESCUE <span style="color: #E5322D">AUTO</span></span><span style="width: 56px; height: 16px; border-radius: 4px; background: #E5322D"></span></div>
+              <div style="padding: 14px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px">
+                <div style="grid-column: span 3; height: 9px; width: 70%; border-radius: 3px; background: #14161A"></div>
+                <div style="padding: 10px 8px; border-radius: 8px; background: #FFFFFF; border: 1px solid #E2E4E8"><div style="width: 16px; height: 16px; border-radius: 5px; background: #FDE2E1"></div><div style="margin-top: 8px; height: 4px; width: 80%; border-radius: 2px; background: #C4C8CF"></div><div style="margin-top: 4px; height: 4px; width: 55%; border-radius: 2px; background: #DADDE2"></div></div>
+                <div style="padding: 10px 8px; border-radius: 8px; background: #FFFFFF; border: 1px solid #E2E4E8"><div style="width: 16px; height: 16px; border-radius: 5px; background: #FDE2E1"></div><div style="margin-top: 8px; height: 4px; width: 75%; border-radius: 2px; background: #C4C8CF"></div><div style="margin-top: 4px; height: 4px; width: 60%; border-radius: 2px; background: #DADDE2"></div></div>
+                <div style="padding: 10px 8px; border-radius: 8px; background: #FFFFFF; border: 1px solid #E2E4E8"><div style="width: 16px; height: 16px; border-radius: 5px; background: #FDE2E1"></div><div style="margin-top: 8px; height: 4px; width: 85%; border-radius: 2px; background: #C4C8CF"></div><div style="margin-top: 4px; height: 4px; width: 50%; border-radius: 2px; background: #DADDE2"></div></div>
+              </div>
+            </div>
+          </div>
+          <div style="padding: 24px 26px 28px">
+            <p style="margin: 0; font-size: 13.5px; color: #7DB2FF">Projeto demonstrativo</p>
+            <h3 style="margin: 6px 0 0; font-size: 22px; letter-spacing: -0.02em; font-weight: 600; color: #FFFFFF">Rescue Automotive</h3>
+            <p style="margin: 12px 0 0; font-size: 15.5px; line-height: 1.6; color: #A1AEC1">Site em inglês desenvolvido como proposta para uma oficina mecânica independente de Orlando, na Flórida, com página dedicada aos serviços de funilaria.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Meu trabalho -->
+  <section id="trabalho" style="padding: clamp(72px, 9vw, 120px) 24px; scroll-margin-top: 68px; border-top: 1px solid rgba(148,170,210,.08)">
+    <div style="max-width: 1200px; margin: 0 auto">
+      <h2 style="margin: 0; max-width: 20ch; font-size: clamp(32px, 4.2vw, 52px); line-height: 1.05; letter-spacing: -0.035em; font-weight: 600; color: #FFFFFF">Antes de ligar ou visitar, o cliente pesquisa.</h2>
+      <p style="margin: 24px 0 0; max-width: 60ch; font-size: 18px; line-height: 1.7; color: #A7B3C6">Hoje, a primeira impressão de uma empresa costuma acontecer na tela do celular. Um site bem feito é o lugar onde o seu negócio se apresenta do jeito certo, com as informações organizadas, a sua identidade e um caminho fácil para o contato.</p>
+
+      <div style="margin-top: 56px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 22px">
+        <div style="position: relative; padding: 32px 30px; border-radius: 24px; background: linear-gradient(180deg, #0F1522, #0B0F17); border: 1px solid rgba(148,170,210,.13); overflow: hidden">
+          <div aria-hidden="true" style="position: absolute; top: -1px; left: 30px; right: 30px; height: 1px; background: linear-gradient(90deg, transparent, rgba(125,178,255,.7), transparent)"></div>
+          <svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#7DB2FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+          <h3 style="margin: 22px 0 0; font-size: 21px; letter-spacing: -0.02em; font-weight: 600; color: #FFFFFF">Ser encontrado</h3>
+          <p style="margin: 12px 0 0; font-size: 16px; line-height: 1.65; color: #A1AEC1">Com um site próprio, quem procura pelo seu tipo de negócio encontra um endereço oficial, com tudo o que precisa saber em um só lugar.</p>
+        </div>
+        <div style="position: relative; padding: 32px 30px; border-radius: 24px; background: linear-gradient(180deg, #0F1522, #0B0F17); border: 1px solid rgba(148,170,210,.13); overflow: hidden">
+          <div aria-hidden="true" style="position: absolute; top: -1px; left: 30px; right: 30px; height: 1px; background: linear-gradient(90deg, transparent, rgba(125,178,255,.7), transparent)"></div>
+          <svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#7DB2FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6l7-3z"></path><path d="M9 12l2 2 4-4"></path></svg>
+          <h3 style="margin: 22px 0 0; font-size: 21px; letter-spacing: -0.02em; font-weight: 600; color: #FFFFFF">Transmitir credibilidade</h3>
+          <p style="margin: 12px 0 0; font-size: 16px; line-height: 1.65; color: #A1AEC1">Um site cuidadoso mostra que existe uma empresa séria por trás. Isso pesa na decisão de quem ainda não conhece o seu trabalho.</p>
+        </div>
+        <div style="position: relative; padding: 32px 30px; border-radius: 24px; background: linear-gradient(180deg, #0F1522, #0B0F17); border: 1px solid rgba(148,170,210,.13); overflow: hidden">
+          <div aria-hidden="true" style="position: absolute; top: -1px; left: 30px; right: 30px; height: 1px; background: linear-gradient(90deg, transparent, rgba(125,178,255,.7), transparent)"></div>
+          <svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#7DB2FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 0 18c1.1 0 1.6-.8 1.6-1.6 0-1.4-1.2-1.6-1.2-2.8 0-.9.7-1.6 1.6-1.6H16a5 5 0 0 0 5-5c0-3.9-4-7-9-7z"></path><circle cx="7.5" cy="11" r="1"></circle><circle cx="10" cy="7.5" r="1"></circle><circle cx="14.5" cy="7.5" r="1"></circle></svg>
+          <h3 style="margin: 22px 0 0; font-size: 21px; letter-spacing: -0.02em; font-weight: 600; color: #FFFFFF">Valorizar a sua marca</h3>
+          <p style="margin: 12px 0 0; font-size: 16px; line-height: 1.65; color: #A1AEC1">Cores, tipografia, fotos e textos trabalham juntos para que o site tenha a cara do seu negócio, e não de um modelo pronto.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" style="padding: clamp(40px, 6vw, 80px) 24px clamp(72px, 9vw, 120px); scroll-margin-top: 68px">
+    <div style="position: relative; max-width: 1200px; margin: 0 auto; border-radius: 32px; overflow: hidden; background: #0A0F1C; border: 1px solid rgba(125,178,255,.22); padding: clamp(48px, 8vw, 100px) clamp(24px, 6vw, 80px); text-align: center">
+      <div aria-hidden="true" style="position: absolute; left: 50%; top: -260px; width: 900px; height: 520px; transform: translateX(-50%); background: radial-gradient(closest-side, rgba(47,123,255,.42), rgba(47,123,255,0)); pointer-events: none"></div>
+      <div aria-hidden="true" style="position: absolute; top: 0; left: 15%; right: 15%; height: 1px; background: linear-gradient(90deg, transparent, rgba(160,200,255,.9), transparent)"></div>
+      <div style="position: relative">
+        <h2 style="margin: 0 auto; max-width: 18ch; font-size: clamp(34px, 5vw, 64px); line-height: 1.02; letter-spacing: -0.04em; font-weight: 600; color: #FFFFFF">Tem um projeto em mente? Vamos conversar.</h2>
+        <p style="margin: 24px auto 0; max-width: 50ch; font-size: 18px; line-height: 1.65; color: #B4C0D2">Me conte sobre o seu negócio e o que você imagina para ele na internet. A conversa é sem compromisso e o próximo passo a gente define junto.</p>
+        <div style="margin-top: 40px; display: flex; justify-content: center">
+          <a class="btn-primary" href="https://wa.me/554792193142?text=Ol%C3%A1%2C%20Luan%21%20Gostaria%20de%20conversar%20sobre%20a%20cria%C3%A7%C3%A3o%20de%20um%20site." target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 12px; min-height: 58px; padding: 0 32px; border-radius: 999px; background: #1D66FF; color: #FFFFFF; font-size: 17px; font-weight: 500; box-shadow: 0 0 0 1px rgba(125,178,255,.4), 0 12px 40px -10px rgba(47,123,255,.9)">
+            <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"></path></svg>
+            Conversar pelo WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer style="border-top: 1px solid rgba(148,170,210,.10); padding: 32px 24px">
+    <div style="max-width: 1200px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px; font-size: 14.5px; color: #8F9CB0">
+      <p style="margin: 0">© 2026 Luan Alves. Criação de sites em Blumenau, SC.</p>
+      <div style="display: flex; gap: 24px">
+        <a class="navlink" href="https://github.com/luanquintini" target="_blank" rel="noopener" style="color: #A7B3C6">GitHub</a>
+        <a class="navlink" href="https://wa.me/554792193142?text=Ol%C3%A1%2C%20Luan%21%20Gostaria%20de%20conversar%20sobre%20a%20cria%C3%A7%C3%A3o%20de%20um%20site." target="_blank" rel="noopener" style="color: #A7B3C6">WhatsApp</a>
+        <a class="navlink" href="#inicio" style="color: #A7B3C6">Voltar ao topo</a>
+      </div>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
